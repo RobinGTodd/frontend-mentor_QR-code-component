@@ -15,7 +15,7 @@ body {
     border-radius: 18px;
     font-family: 'Outfit', sans-serif;
     text-align: center;
-    box-shadow: 0px 0px 10px hsl(0, 0%, 80%);
+    box-shadow: 0 0 10px hsl(0, 0%, 80%);
 }
 
 .qr-card img {
@@ -26,15 +26,14 @@ body {
 }
 
 .qr-card h1 {
-    text-weight: bold;
+    font-weight: bold;
     font-size: 22px;
     color: hsl(218, 44%, 22%);
     padding: 10px 25px;
 }
 
 .qr-card p {
-    font-size: 12px;
     color: hsl(220, 15%, 55%);
-    padding: 0px 25px;
+    padding: 0 25px;
     font-size: 16px;
-}f
+}
